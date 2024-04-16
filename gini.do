@@ -17,4 +17,5 @@ quietly { //大括号内的命令将在后台执行，前台无显示
 	}
 display as result "`title'基尼系数为：" as error `gini'[_N] //显示基尼系数
 restore
+end
 
